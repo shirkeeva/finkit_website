@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter';
+    color: #29374E;
+    margin: 0;
+}
+
+.container_top, .container_body {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.container_top {
+    background-color: #CBECFF;
+    position: relative;
+    padding-bottom: 197px;
+    padding-top: 22px;
+    background-image: url("../img/phone.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.top__language {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top__language_option {
+    width: 26px;
+    height: 24px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.top__language_option_selected {
+    color: #0962E8;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.top__header {
+    margin-top: 100px;
+}
+
+.top__header_title {
+    font-size: 64px;
+    font-weight: 700;
+    display: inline;
+    line-height: 83px;
+    font-family: Inter;
+    letter-spacing: 0em;
+}
+
+.top__header_title_highlighted {
+    color: #0962E8;
+    background-color: #fff;
+    padding: 0 12px;
+    margin-left: 5px;
+    border-radius: 20px;
+    display: inline;
+}
+
+.top__header_label {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 384px;
+    margin: 0;
+    margin-top: 11px;
+}
+
+.blue_button {
+    background-color: #0962E8;
+    border: 0;
+    border-radius: 8px;
+    height: 52px;
+    width: 199px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 38px;
+}
+
+.top__advantages {
+    position: absolute;
+    bottom: -35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.top__advantages_item {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 201px;
+    height: 74px;
+    box-shadow: 6px 4px 12px 0px #0000000D;
+    position: relative;
+    padding: 22px 20px;
+}
+
+.top__advantages_item + .top__advantages_item {
+    margin-left: 20px;
+}
+
+.top__advantages_item_label {
+    width: 150px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.top__advantages_item_icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 39px;
+    height: 39px;
+    border-radius: 50px;
+    background-color: #EFF9FF;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body__block {
+    margin-top: 150px;
+    display: flex
+}
+
+.body__title {
+    margin-top: 150px;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.body__title_highlighted {
+    color: #0962E8;
+}
+
+.body__spacers {
+    display: flex;
+    margin-top: 44px;
+}
+
+.body__spacer_item {
+    background-color: #E9F6FF;
+    width: 502px;
+    height: 328px;
+    border-radius: 30px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.body__spacer_item + .body__spacer_item {
+    margin-left: 20px;
+}
+
+#spacer_auto-investigation {
+    background-image: url("../img/Risk\ level…\ 3.png");
+}
+
+#spacer_robo-advising {
+    background-image: url("../img/Risk\ level…\ 1.png");
+}
+
+.body__spacer_title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    width: 200px;
+    margin: 37px 0 0 20px;
+}
+
+.body__spacer_label {
+    margin: 12px 0 0 20px;
+    max-width: 210px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.body__describe {
+    width: 502px;
+}
+
+.body__describe_title {
+    margin: 0;
+    text-align: left;
+}
+
+.body__describe_label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-top: 21px;
+}
+
+.body__advantages {
+    width: 502px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.body__advantages_item {
+    border-radius: 20px;
+    height: 140px;
+}
+
+.body__advantages_item_icon {
+    background-color: #EFF9FF;
+    width: 39px;
+    height: 39px;
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body__advantages_item_label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+@media (min-resolution: 2dppx) {
+    .container_top {
+        background-image: url("../img/phone@2x.png");
+    }
+
+    #spacer_auto-investigation {
+        background-image: url("../img/Risk\ level…\ 3@2x.png");
+    }
+
+    #spacer_robo-advising {
+        background-image: url("../img/Risk\ level…\ 1@2x.png");
+    }
+}
+
+@media (max-width: 767px) {
+    .container_top, .container_body {
+        padding: 0;
+    }
+
+    .container_top {
+        background-position: right top;
+        /* padding-bottom: 33px;
+        padding-top: 24px; */
+        padding: 24px 16px 33px 16px;
+    }
+
+    .top__header {
+        /* margin-left: 0px; */
+        margin-top: 456px;
+    }
+    
+    .top__language {
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .top__header {
+        margin-top: 408px;
+    }
+    
+    .top__header_title {
+        font-size: 48px;
+    }
+    
+    .top__header_title_highlighted {
+        margin-left: 9px;
+    }
+    
+    .top__header_label {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    
+    .blue_button {
+        border-radius: 12px;
+        height: 52px;
+        /* width: 343px; */
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .top__advantages {
+        /* margin-left: 16px; */
+        margin-top: 22px;
+        position: relative;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+        row-gap: 20px;
+        /* margin-right: 16px; */
+        /* margin-top: 197px; */
+    }
+      
+    .top__advantages_item {
+        background-color: #fff;
+        border-radius: 20px;
+        width: auto;
+        /* height: 118px; */
+        padding-top: 42px;
+        position: relative;
+    }
+    
+    .top__advantages_item + .top__advantages_item {
+        margin-left: 0;
+    }
+    
+    .top__advantages_item_label {
+        /* width: 150px; */
+        max-width: 90%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .top__advantages_item_icon {
+        top: -5px;
+        right: auto;
+        left: 18px;
+    }
+
+    .container_body {
+        padding: 0 16px;
+    }
+    
+    .body__block {
+        margin-top: 0px;
+        display: flex;
+    }
+    
+    .body__title {
+        margin-top: 40px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 31px;
+    }
+    
+    .body__spacers {
+        display: block;
+        margin-top: 24px;
+    }
+    
+    .body__spacer_item {
+        width: auto;
+        height: 215px;
+        border-radius: 30px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .body__spacer_item + .body__spacer_item {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+    
+    #spacer_auto-investigation {
+        background-image: url("../img/Risk\ level…\ 3.png");
+    }
+    
+    #spacer_robo-advising {
+        background-image: url("../img/Risk\ level…\ 1.png");
+    }
+    
+    .body__spacer_title {
+        font-size: 16px;
+        line-height: 22px;
+        width: 70%;
+        margin: 25px 0 0 16px;
+    }
+    
+    .body__spacer_label {
+        margin: 4px 0 0 16px;
+        max-width: 210px;
+        max-width: 60%;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .body__block {
+        display: block;
+    }
+    
+    .body__describe {
+        width: auto;
+    }
+    
+    .body__describe_title {
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .body__describe_label {
+        text-align: center;
+    }
+    
+    .body__advantages {
+        margin-top: 32px;
+        width: auto;
+        margin-left: 0;
+        column-gap: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .body__advantages_item {
+        height: 134px;
+        box-shadow: 6px 4px 12px 0px #0000000D;
+        position: relative;
+        padding: 42px 12px 0 18px;
+    }
+    
+    .body__advantages_item_icon {
+        position: absolute;
+        top: -5px;
+    }
+}
